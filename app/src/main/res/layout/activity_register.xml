@@ -16,7 +16,7 @@
             android:textColor="@color/yellow"
             android:fontFamily="@font/poppins_bold"
             android:textSize="24dp"
-            android:paddingTop="42dp"
+            android:paddingTop="32dp"
             android:textStyle="bold"
             android:gravity="center"
             android:textAlignment="center" />
@@ -91,7 +91,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
-        android:paddingTop="32dp"
+        android:paddingTop="20dp"
         android:layout_below="@+id/telpon"
 
         >
@@ -109,7 +109,7 @@
         android:layout_height="56dp"
         android:id="@+id/register"
         android:layout_below="@+id/linearLayout"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="12dp"
         android:backgroundTint="#e8af02"
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
@@ -130,25 +130,25 @@
     android:layout_height="wrap_content"
     android:id="@+id/linearLayout"
     android:layout_marginHorizontal="30dp"
-    android:paddingTop="24dp"
+    android:paddingTop="12dp"
     android:layout_below="@+id/checkbox"
     android:orientation="horizontal">
     <ImageView
-        android:layout_width="42dp"
-        android:layout_height="42dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
         android:src="@drawable/github"
         android:id="@+id/github"
         android:clickable="true"
         android:layout_weight="3"/>
     <ImageView
-        android:layout_width="42dp"
-        android:layout_height="42dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
         android:src="@drawable/google"
         android:id="@+id/google"
         android:layout_weight="1"/>
     <ImageView
-        android:layout_width="42dp"
-        android:layout_height="42dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
         android:src="@drawable/instagram"
         android:id="@+id/instagram"
         android:layout_weight="3"/>
@@ -162,6 +162,5 @@
         android:layout_below="@+id/register"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"/>
-
 
 </RelativeLayout>
