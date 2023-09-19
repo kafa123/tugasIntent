@@ -44,10 +44,15 @@ class Register : AppCompatActivity() {
                 val intent = Intent(ACTION_VIEW, Uri.parse("https://google.com"))
                 startActivity(intent)
             }
-            google.setOnClickListener{
+            instagram.setOnClickListener{
                 val intent = Intent(ACTION_VIEW, Uri.parse("https://instagram.com"))
                 startActivity(intent)
             }
+            sudahPunyaAkun.setOnClickListener{
+                val intent = Intent(this@Register,Login::class.java)
+                startActivity(intent)
+            }
+
         }
     }
 }
